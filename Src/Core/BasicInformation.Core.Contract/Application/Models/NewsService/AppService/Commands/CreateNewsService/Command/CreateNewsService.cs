@@ -2,7 +2,7 @@
 
 using Swan.Web.Core.Contract;
 
-public class CreateService : Command<long>
+public class CreateNewsService : Command<long>
 {
     public string Title { get; set; } = Empty;
     public string Name { get; set; } = Empty;
