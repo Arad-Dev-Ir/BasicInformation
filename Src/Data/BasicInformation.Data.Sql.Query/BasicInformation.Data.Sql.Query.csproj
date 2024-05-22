@@ -7,18 +7,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Data\**" />
-	  <EmbeddedResource Remove="Data\**" />
-	  <None Remove="Data\**" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Swan.AspNetCore.App" Version="3.1.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\Core\BasicInformation.Core.Contract\BasicInformation.Core.Contract.csproj" />
 		<ProjectReference Include="..\BasicInformation.Data.Sql\BasicInformation.Data.Sql.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Data\Setup\Models\Keyword\Configuration\" />
+	  <Folder Include="Data\Setup\Models\Keyword\Conversion\" />
 	</ItemGroup>
 
 </Project>
