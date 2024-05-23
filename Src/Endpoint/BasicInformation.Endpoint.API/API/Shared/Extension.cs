@@ -3,6 +3,7 @@
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.ResponseCompression;
+using Steeltoe.Discovery.Client;
 using Swan.Core.Extensions.Caching;
 using Swan.Core.Extensions.Serialization;
 using Swan.Core.Extensions.Identity;
