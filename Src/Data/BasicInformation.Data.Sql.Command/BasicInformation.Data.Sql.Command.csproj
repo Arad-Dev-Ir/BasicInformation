@@ -7,6 +7,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
 		<PackageReference Include="Swan.AspNetCore.App" Version="3.1.0" />
 	</ItemGroup>
 
@@ -17,8 +21,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Data\Setup\Models\Keyword\Class\" />
-	  <Folder Include="Data\Setup\Models\Service\Class\" />
+		<Folder Include="Data\Setup\Models\Keyword\Class\" />
+		<Folder Include="Data\Setup\Models\Service\Class\" />
 	</ItemGroup>
 
 </Project>

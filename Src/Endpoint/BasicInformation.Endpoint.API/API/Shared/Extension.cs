@@ -2,15 +2,15 @@
 
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.ResponseCompression;
 using Swan.Core.Extensions.Caching;
 using Swan.Core.Extensions.Serialization;
 using Swan.Core.Extensions.Identity;
 using Swan.Web.Data.Sql.Command;
 using Swan.Web.Endpoint.API;
+using System.IO.Compression;
 using Data.Sql.Commands;
 using Data.Sql.Queries;
-using Microsoft.AspNetCore.ResponseCompression;
-using System.IO.Compression;
 
 // hosting
 public static class Extension
