@@ -1,15 +1,15 @@
-@baseUrl = https://localhost:8001/api/keyword
+@baseUrl = https://localhost:7001/api/keyword
 
 POST {{baseUrl}}/define-keyword
 Content-Type: application/json
 
 {
-    "Title": "Art14" 
+    "Title": "Network" 
 }
 
 ###
 
-Get {{baseUrl}}/search?title=economic
+Get {{baseUrl}}/search?title=Cloud
 
 ###
 
@@ -27,5 +27,5 @@ POST {{baseUrl}}/activate-keyword
 Content-Type: application/json
 
 {
-    "Id": 3
+    "Id": 1
 }
