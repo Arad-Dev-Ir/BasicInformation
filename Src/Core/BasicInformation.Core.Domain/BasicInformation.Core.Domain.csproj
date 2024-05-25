@@ -7,7 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Swan.AspNetCore.App" Version="3.1.0" />
+		<PackageReference Include="Swan.AspNetCore.App" Version="3.1.1" />
 	</ItemGroup>
 
 </Project>

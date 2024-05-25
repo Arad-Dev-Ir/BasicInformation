@@ -14,7 +14,7 @@
 		</PackageReference>
 		<PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.2.6" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-		<PackageReference Include="Swan.AspNetCore.App" Version="3.1.0" />
+		<PackageReference Include="Swan.AspNetCore.App" Version="3.1.1" />
 	</ItemGroup>
 
 	<ItemGroup>
