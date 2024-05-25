@@ -9,7 +9,7 @@ using NewsService = Core.NewsService.Models.NewsService;
 public class BasicInformationCommandContext : OutboxCommandContext
 {
     public DbSet<Keyword> Keywords => Set<Keyword>();
-    public DbSet<NewsService> Services => Set<NewsService>();
+    public DbSet<NewsService> NewsServices => Set<NewsService>();
 
     public BasicInformationCommandContext(DbContextOptions<BasicInformationCommandContext> options) : base(options)
     { }
