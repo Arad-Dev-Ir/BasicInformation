@@ -22,9 +22,9 @@
 		<ProjectReference Include="..\..\Core\BasicInformation.Core.Domain\BasicInformation.Core.Domain.csproj" />
 		<ProjectReference Include="..\..\Core\BasicInformation.Core.Contract\BasicInformation.Core.Contract.csproj" />
 		<ProjectReference Include="..\..\Core\BasicInformation.Core.AppService\BasicInformation.Core.AppService.csproj" />
-		<ProjectReference Include="..\..\Data\BasicInformation.Data.Sql\BasicInformation.Data.Sql.csproj" />
-		<ProjectReference Include="..\..\Data\BasicInformation.Data.Sql.Command\BasicInformation.Data.Sql.Command.csproj" />
-		<ProjectReference Include="..\..\Data\BasicInformation.Data.Sql.Query\BasicInformation.Data.Sql.Query.csproj" />
+		<ProjectReference Include="..\..\Data\Internal\BasicInformation.Data.Sql.Command\BasicInformation.Data.Sql.Command.csproj" />
+		<ProjectReference Include="..\..\Data\Internal\BasicInformation.Data.Sql.Query\BasicInformation.Data.Sql.Query.csproj" />
+		<ProjectReference Include="..\..\Data\Internal\BasicInformation.Data.Sql\BasicInformation.Data.Sql.csproj" />
 	</ItemGroup>
 
 </Project>

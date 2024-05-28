@@ -11,13 +11,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\Core\BasicInformation.Core.Contract\BasicInformation.Core.Contract.csproj" />
+		<ProjectReference Include="..\..\..\Core\BasicInformation.Core.Contract\BasicInformation.Core.Contract.csproj" />
 		<ProjectReference Include="..\BasicInformation.Data.Sql\BasicInformation.Data.Sql.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Data\Setup\Models\Keyword\Configuration\" />
-	  <Folder Include="Data\Setup\Models\Keyword\Conversion\" />
+		<Folder Include="Data\Setup\Models\Keyword\Configuration\" />
+		<Folder Include="Data\Setup\Models\Keyword\Conversion\" />
 	</ItemGroup>
 
 </Project>

@@ -15,8 +15,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\Core\BasicInformation.Core.Domain\BasicInformation.Core.Domain.csproj" />
-		<ProjectReference Include="..\..\Core\BasicInformation.Core.Contract\BasicInformation.Core.Contract.csproj" />
+		<ProjectReference Include="..\..\..\Core\BasicInformation.Core.Contract\BasicInformation.Core.Contract.csproj" />
+		<ProjectReference Include="..\..\..\Core\BasicInformation.Core.Domain\BasicInformation.Core.Domain.csproj" />
 		<ProjectReference Include="..\BasicInformation.Data.Sql\BasicInformation.Data.Sql.csproj" />
 	</ItemGroup>
 
